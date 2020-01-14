@@ -1,0 +1,19 @@
+container{
+    text-align: center;
+    line-height: 1em;
+}
+li{
+    list-style-type: none;
+    /* background: palegreen; */
+    border: solid grey 1px;
+}
+input{
+    background: palegreen;
+    border: none;
+    height: 3em;
+    width: 80%;
+    /* float: right; */
+}
+/* button{
+    float: right;
+} */
