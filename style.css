@@ -1,19 +1,41 @@
-container{
+body{
+    margin: 0;
     text-align: center;
-    line-height: 1em;
+
+}
+#day{
+    border-bottom: solid 5px;
+    padding-bottom: 3em;
 }
 li{
+    border: solid grey;
+    border-width: 1px 0;
+    display: flex;
+    height: 3em; /**/
     list-style-type: none;
-    /* background: palegreen; */
-    border: solid grey 1px;
+    margin: 0 3em 0;
+    padding: 2px 0;
 }
-input{
-    background: palegreen;
+
+form{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 85%;
+}
+
+.event{
     border: none;
-    height: 3em;
-    width: 80%;
-    /* float: right; */
+    height: 100%;
+    width: 100%;
 }
-/* button{
-    float: right;
-} */
+
+.save{
+    background: turquoise;
+    height: 100%;
+    width:5%;
+}
+
+span{
+    width: 10%;
+}
